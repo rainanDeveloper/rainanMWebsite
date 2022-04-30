@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-export const Menu = styled.ul`
+export const MenuStyles = styled.ul`
   display: flex;
   list-style: none;
   margin-top: 0;
-  font-size: 24px;
+  font-size: 18px;
 
   li {
     display: flex;
