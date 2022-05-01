@@ -8,7 +8,7 @@ function App() {
     <>
       <GlobalStyles/>
       <WebsiteHeader/>
-      <MiddleBanner/>
+      <MiddleBanner>Olá, meu nome é Rainan Miranda de Jesus e eu sou um desenvolvedor fullstack!</MiddleBanner>
     </>
   )
 }
