@@ -9,26 +9,28 @@ export const MiddleBannerStyles = styled.main`
   position: relative;
   z-index: -1;
   position: relative;
-  margin-top: -142px;
-  width: 100vw;
+  margin-top: -82px;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
 
   img {
-    width: 100%;
+    width: 110%;
     height: 110%;
     filter: blur(4px);
     object-fit: cover;
     background-image: url(${backgroundImg});
   }
 
-  h1 {
+  section {
     position: absolute;
-    max-width: 600px;
+    max-width: 1200px;
     text-align: center;
-    font-size: 35px;
-    color: white;
-    margin-bottom: 200px;
     text-shadow: 2px 2px 5px #131313;
+    color: white;
+  }
+
+  h1 {
+    font-size: 55px;
   }
 `;

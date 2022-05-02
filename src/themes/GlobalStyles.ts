@@ -6,7 +6,13 @@ export const GlobalStyles = createGlobalStyle`
 
   * {
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     margin: 0;
     padding: 0;
+    color: white;
+  }
+
+  body {
+    background-color: #2f3640;
   }
 `;

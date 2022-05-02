@@ -5,15 +5,15 @@ import { IMenuItem } from '../Menu/index';
 export function WebsiteHeader () {
   const menuItens: IMenuItem[] = [
     {
-      title: 'Tecnologias',
-      link: '#'
+      title: 'Technologies',
+      link: '#technologies'
     },
     {
       title: 'Portfolio',
       link: '#'
     },
     {
-      title: 'Contato',
+      title: 'Contact',
       link: '#'
     }
   ]

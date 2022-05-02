@@ -1,6 +1,7 @@
 import { GlobalStyles } from './themes/GlobalStyles';
 import { MiddleBanner } from './components/MiddleBanner/index';
 import { WebsiteHeader } from './components/WebsiteHeader/index';
+import { CardList } from './components/CardList';
 
 function App() {
 
@@ -8,7 +9,11 @@ function App() {
     <>
       <GlobalStyles/>
       <WebsiteHeader/>
-      <MiddleBanner>Olá, meu nome é Rainan Miranda de Jesus e eu sou um desenvolvedor fullstack!</MiddleBanner>
+      <MiddleBanner>
+        <h1>Hello World! My name is Rainan Miranda</h1>
+        <p>I am a Fulstack developer, with a large backend domain</p>
+      </MiddleBanner>
+      <CardList/>
     </>
   )
 }
